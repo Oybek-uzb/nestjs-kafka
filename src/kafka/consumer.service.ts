@@ -5,7 +5,6 @@ import {
   ConsumerSubscribeTopics,
   Kafka,
 } from 'kafkajs';
-import { consumers } from 'stream';
 
 @Injectable()
 export class ConsumerService implements OnApplicationShutdown {
